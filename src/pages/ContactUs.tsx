@@ -41,14 +41,14 @@ const ContactUs = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'sales@onecloud.th',
+      content: 'yenaingtint@  onecloudtechnology-th.com',
       description: 'Get in touch for sales inquiries',
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+66-2-123-4567',
+      content: '+66-83-225-6781',
       description: '24/7 support hotline',
       gradient: 'from-green-500 to-emerald-500'
     },
@@ -56,7 +56,7 @@ const ContactUs = () => {
       icon: MapPin,
       title: 'Visit Us',
       content: 'Bangkok, Thailand',
-      description: 'Silom District, Bangkok 10500',
+      description: 'No.18/8 Asoke Montri Road, Unit 604, Level 6, FICO Place BIdg, Soi Sukhumvit 21, Klongtoey Nua, Wattana, Bangkok 10110, Thailand',
       gradient: 'from-purple-500 to-pink-500'
     },
     {
@@ -68,24 +68,24 @@ const ContactUs = () => {
     }
   ];
 
-  const faqs = [
-    {
-      question: 'How long does a typical cloud migration take?',
-      answer: 'Cloud migration timelines vary based on complexity, but most enterprise migrations take 3-6 months with our proven methodology.'
-    },
-    {
-      question: 'Do you provide 24/7 support?',
-      answer: 'Yes, we offer 24/7 support for all our enterprise clients with guaranteed response times and dedicated support teams.'
-    },
-    {
-      question: 'What security certifications do you maintain?',
-      answer: 'We maintain SOC 2 Type II, ISO 27001, and various cloud provider certifications to ensure the highest security standards.'
-    },
-    {
-      question: 'Can you help with compliance requirements?',
-      answer: 'Absolutely. We specialize in helping organizations meet various compliance requirements including GDPR, HIPAA, and local regulations.'
-    }
-  ];
+  // const faqs = [
+  //   {
+  //     question: 'How long does a typical cloud migration take?',
+  //     answer: 'Cloud migration timelines vary based on complexity, but most enterprise migrations take 3-6 months with our proven methodology.'
+  //   },
+  //   {
+  //     question: 'Do you provide 24/7 support?',
+  //     answer: 'Yes, we offer 24/7 support for all our enterprise clients with guaranteed response times and dedicated support teams.'
+  //   },
+  //   {
+  //     question: 'What security certifications do you maintain?',
+  //     answer: 'We maintain SOC 2 Type II, ISO 27001, and various cloud provider certifications to ensure the highest security standards.'
+  //   },
+  //   {
+  //     question: 'Can you help with compliance requirements?',
+  //     answer: 'Absolutely. We specialize in helping organizations meet various compliance requirements including GDPR, HIPAA, and local regulations.'
+  //   }
+  // ];
 
   return (
     <div className="pt-24">
@@ -141,7 +141,7 @@ const ContactUs = () => {
       </section>
 
       {/* Contact Form & Map */}
-      <section className="py-20">
+      <section className="pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Contact Form */}
@@ -300,9 +300,9 @@ const ContactUs = () => {
                   Thailand Headquarters
                 </h3>
                 <div className="text-indigo-100 space-y-2">
-                  <p className="text-lg font-semibold">One Cloud Systems Co., Ltd.</p>
-                  <p>123 Silom Road, Silom</p>
-                  <p>Bang Rak, Bangkok 10500</p>
+                  <p className="text-lg font-semibold">One Cloud Technology Company Limited</p>
+                  {/* <p>123 Silom Road, Silom</p> */}
+                  <p>No.18/8 Asoke Montri Road, Unit 604, Level 6, FICO Place BIdg, Soi Sukhumvit 21, Klongtoey Nua, Wattana, Bangkok 10110</p>
                   <p>Thailand</p>
                 </div>
                 <div className="mt-6 pt-6 border-t border-white/20">
@@ -332,7 +332,7 @@ const ContactUs = () => {
       </section>
 
       {/* Talk to Sales CTA */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -358,10 +358,10 @@ const ContactUs = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
-      <section className="pt-20">
+      {/* <section className="pt-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -405,7 +405,7 @@ const ContactUs = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

@@ -5,85 +5,79 @@ import { Rocket, Cloud, Shield, Globe, Award, Users, Building, Zap, Target, Tren
 const Journey = () => {
   const journeySteps = [
     {
-      year: '2014',
-      title: 'Foundation & Vision',
-      description: 'One Cloud was founded with a mission to democratize enterprise-grade cloud solutions for businesses of all sizes. Started with a small team of passionate engineers in Bangkok, Thailand.',
+      year: '2024',
+      title: 'Company founded',
+      description: 'Began as a small team of committed and passionate engineers united.',
       icon: Rocket,
       details: [
-        'Founded by industry veterans with 20+ years combined experience in enterprise technology',
-        'Initial focus on small to medium enterprise cloud solutions and system integration',
-        'Established strategic partnerships with major cloud providers including AWS and Microsoft',
-        'First office opened in Bangkok\'s central business district with a team of 5 engineers',
-        'Secured seed funding of $2M to accelerate product development and market entry',
-        'Developed proprietary cloud migration methodology that would become industry standard'
+        'We have successfully achieved IT infrastructure projects for our first client.',
+        'Built strong relationships with early customers by delivering customized and reliable IT solutions.',
+        'Strengthened partnerships with technology vendors',
       ],
-      metrics: { clients: '5', revenue: '$500K', employees: '5' },
-      milestone: 'Company Incorporation'
+      // metrics: { clients: '5', revenue: '$500K', employees: '5' },
+      // milestone: 'Company Incorporation'
     },
     {
-      year: '2016',
+      year: '2025',
       title: 'Cloud Excellence & Growth',
       description: 'Achieved AWS Advanced Consulting Partner status and expanded our cloud infrastructure services. Deployed our first enterprise-scale cloud migration project for a Fortune 500 manufacturing company.',
       icon: Cloud,
       details: [
-        'AWS Advanced Consulting Partner certification achieved - highest tier partnership',
-        'Launched 24/7 cloud monitoring and support services with dedicated NOC',
-        'Completed 50+ successful cloud migrations with zero downtime guarantee',
-        'Expanded engineering team to 25 cloud specialists and solution architects',
-        'Opened second office in Singapore to serve Southeast Asian markets',
-        'Developed AI-powered cost optimization tools reducing client cloud spend by 30%'
+        'Introduced 24/7 proactive support services, improving system uptime and reliability for customers.',
+        'Expanded our customer base across multiple industries, gaining trust through consistent service excellence.',
+        
       ],
-      metrics: { clients: '50', revenue: '$5M', employees: '25' },
-      milestone: 'AWS Premier Partnership'
+      // metrics: { clients: '50', revenue: '$5M', employees: '25' },
+      // milestone: 'AWS Premier Partnership'
     },
-    {
-      year: '2018',
-      title: 'Security Leadership & Compliance',
-      description: 'Became a cybersecurity leader in the region with advanced threat detection and response capabilities. Achieved SOC 2 Type II compliance and established our Security Operations Center.',
-      icon: Shield,
-      details: [
-        'SOC 2 Type II compliance achieved with zero findings in initial audit',
-        'Advanced threat detection platform launched with ML-powered analytics',
-        'Incident response team established with average 15-minute response time',
-        'Cybersecurity training programs initiated for 500+ client organizations',
-        'ISO 27001 certification obtained for information security management',
-        'Zero-trust security architecture implemented for all client environments'
-      ],
-      metrics: { clients: '150', revenue: '$15M', employees: '60' },
-      milestone: 'Security Excellence Recognition'
-    },
-    {
-      year: '2021',
-      title: 'Digital Transformation Leadership',
-      description: 'Expanded into comprehensive digital transformation services, helping enterprises modernize their entire IT infrastructure and business processes during the global digital acceleration.',
-      icon: Globe,
-      details: [
-        'Digital transformation consulting services launched with 50+ certified consultants',
-        'AI and machine learning capabilities added to service portfolio',
-        'DevOps and automation services expanded with CI/CD pipeline implementations',
-        'Reached 500+ enterprise clients milestone with 99.9% satisfaction rate',
-        'Established innovation lab for emerging technologies research and development',
-        'Launched sustainability initiative helping clients reduce carbon footprint by 40%'
-      ],
-      metrics: { clients: '500', revenue: '$50M', employees: '150' },
-      milestone: 'Digital Transformation Leader'
-    },
-    {
-      year: '2024',
-      title: 'Innovation Leadership & Next-Gen Platform',
-      description: 'Leading the next generation of SI services with cutting-edge technologies, sustainable solutions, and comprehensive platform integrations. Launched AI-powered automation platform.',
-      icon: Award,
-      details: [
-        'Next-generation SI platform launched with AI-powered automation capabilities',
-        'Sustainable cloud solutions introduced reducing environmental impact by 50%',
-        'Advanced analytics and reporting capabilities with real-time business intelligence',
-        'Industry recognition as top SI provider in Southeast Asia by leading analysts',
-        'Quantum-ready security solutions developed for future-proof protection',
-        'Global expansion initiated with offices planned in 5 additional countries'
-      ],
-      metrics: { clients: '750+', revenue: '$100M+', employees: '300+' },
-      milestone: 'Industry Innovation Leader'
-    }
+    // {
+    //   year: '2018',
+    //   title: 'Security Leadership & Compliance',
+    //   description: 'Became a cybersecurity leader in the region with advanced threat detection and response capabilities. Achieved SOC 2 Type II compliance and established our Security Operations Center.',
+    //   icon: Shield,
+    //   details: [
+    //     'SOC 2 Type II compliance achieved with zero findings in initial audit',
+    //     'Advanced threat detection platform launched with ML-powered analytics',
+    //     'Incident response team established with average 15-minute response time',
+    //     'Cybersecurity training programs initiated for 500+ client organizations',
+    //     'ISO 27001 certification obtained for information security management',
+    //     'Zero-trust security architecture implemented for all client environments'
+    //   ],
+    //   metrics: { clients: '150', revenue: '$15M', employees: '60' },
+    //   milestone: 'Security Excellence Recognition'
+    // },
+    // {
+    //   year: '2021',
+    //   title: 'Digital Transformation Leadership',
+    //   description: 'Expanded into comprehensive digital transformation services, helping enterprises modernize their entire IT infrastructure and business processes during the global digital acceleration.',
+    //   icon: Globe,
+    //   details: [
+    //     'Digital transformation consulting services launched with 50+ certified consultants',
+    //     'AI and machine learning capabilities added to service portfolio',
+    //     'DevOps and automation services expanded with CI/CD pipeline implementations',
+    //     'Reached 500+ enterprise clients milestone with 99.9% satisfaction rate',
+    //     'Established innovation lab for emerging technologies research and development',
+    //     'Launched sustainability initiative helping clients reduce carbon footprint by 40%'
+    //   ],
+    //   metrics: { clients: '500', revenue: '$50M', employees: '150' },
+    //   milestone: 'Digital Transformation Leader'
+    // },
+    // {
+    //   year: '2024',
+    //   title: 'Innovation Leadership & Next-Gen Platform',
+    //   description: 'Leading the next generation of SI services with cutting-edge technologies, sustainable solutions, and comprehensive platform integrations. Launched AI-powered automation platform.',
+    //   icon: Award,
+    //   details: [
+    //     'Next-generation SI platform launched with AI-powered automation capabilities',
+    //     'Sustainable cloud solutions introduced reducing environmental impact by 50%',
+    //     'Advanced analytics and reporting capabilities with real-time business intelligence',
+    //     'Industry recognition as top SI provider in Southeast Asia by leading analysts',
+    //     'Quantum-ready security solutions developed for future-proof protection',
+    //     'Global expansion initiated with offices planned in 5 additional countries'
+    //   ],
+    //   metrics: { clients: '750+', revenue: '$100M+', employees: '300+' },
+    //   milestone: 'Industry Innovation Leader'
+    // }
   ];
 
   const achievements = [
@@ -243,7 +237,7 @@ const Journey = () => {
                         <div>
                           <div className="text-3xl font-bold text-indigo-600 mb-2">{step.year}</div>
                           <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
-                          <div className="text-sm text-purple-600 font-medium">{step.milestone}</div>
+                          {/* <div className="text-sm text-purple-600 font-medium">{step.milestone}</div> */}
                         </div>
                       </div>
                       
@@ -252,7 +246,7 @@ const Journey = () => {
                       </p>
                       
                       {/* Metrics */}
-                      <div className="grid grid-cols-3 gap-4 mb-8 p-3 bg-white/5 rounded-2xl">
+                      {/* <div className="grid grid-cols-3 gap-4 mb-8 p-3 bg-white/5 rounded-2xl">
                         <div className="text-center">
                           <div className="text-2xl font-bold text-indigo-600">{step.metrics.clients}</div>
                           <div className="text-sm text-gray-600">Clients</div>
@@ -265,7 +259,7 @@ const Journey = () => {
                           <div className="text-2xl font-bold text-cyan-600">{step.metrics.employees}</div>
                           <div className="text-sm text-gra  y-600">Team</div>
                         </div>
-                      </div>
+                      </div> */}
                       
                       <div className="space-y-4">
                         <h4 className="text-lg font-semibold text-gray-900">Key Achievements:</h4>

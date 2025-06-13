@@ -67,61 +67,71 @@ const About = () => {
     // }
   ];
 
-  const certifications = [
-    { name: 'AWS Advanced Consulting Partner', description: 'Highest tier AWS partnership with proven expertise', year: '2019' },
-    { name: 'Microsoft Gold Partner', description: 'Gold competency in Cloud Platform and DevOps', year: '2018' },
-    { name: 'VMware Premier Partner', description: 'Premier level partnership for virtualization solutions', year: '2017' },
-    { name: 'Cisco Gold Partner', description: 'Gold certification for networking solutions', year: '2020' },
-    { name: 'ISO 27001 Certified', description: 'International standard for information security management', year: '2021' },
-    { name: 'SOC 2 Type II Compliant', description: 'Compliance for security, availability, and confidentiality', year: '2022' }
-  ];
+  // const certifications = [
+  //   { name: 'AWS Advanced Consulting Partner', description: 'Highest tier AWS partnership with proven expertise', year: '2019' },
+  //   { name: 'Microsoft Gold Partner', description: 'Gold competency in Cloud Platform and DevOps', year: '2018' },
+  //   { name: 'VMware Premier Partner', description: 'Premier level partnership for virtualization solutions', year: '2017' },
+  //   { name: 'Cisco Gold Partner', description: 'Gold certification for networking solutions', year: '2020' },
+  //   { name: 'ISO 27001 Certified', description: 'International standard for information security management', year: '2021' },
+  //   { name: 'SOC 2 Type II Compliant', description: 'Compliance for security, availability, and confidentiality', year: '2022' }
+  // ];
 
   const companyValues = [
     {
-      title: 'Innovation First',
-      description: 'We continuously explore cutting-edge technologies to deliver solutions that give our clients a competitive advantage.',
+      title: 'Client Success',
+      description: "We are dedicated to our clients' success, delivering solutions that drive real results and long-term value.",
       icon: '🚀'
     },
     {
-      title: 'Client Success',
-      description: 'Our success is measured by our clients\' success. We go above and beyond to ensure every project delivers exceptional value.',
+      title: 'Customer Commitment',
+      description: "We build trusted relationships by understanding our clients' needs and exceeding expectations through exceptional service.",
       icon: '🎯'
     },
     {
-      title: 'Excellence',
-      description: 'We maintain the highest standards in everything we do, from solution design to implementation and ongoing support.',
+      title: 'Innovation',
+      description: 'We embrace emerging technologies and fresh ideas to deliver modern, future-ready solutions.',
       icon: '⭐'
     },
     {
       title: 'Integrity',
-      description: 'We build trust through transparency, honest communication, and ethical business practices in all our relationships.',
+      description: 'We operate with honesty, transparency and accountability in every action and decision.',
       icon: '🤝'
     },
     {
-      title: 'Collaboration',
-      description: 'We work as true partners with our clients, fostering collaborative relationships that drive mutual success.',
+      title: 'Excellence',
+      description: 'We aim for the highest standards, ensuring quality and reliability in everythin we deliver.',
       icon: '🤝'
     },
     {
+      title: 'Teamwork',
+      description: 'We collaborate closely, respecting diverse perspectives to create better outcomes together.',
+      icon: '📚'
+    },
+    {
+      title: 'Security First',
+      description: 'We design with security at the core, ensuring data protection and business continuity.',
+      icon: '📚'
+    },
+     {
       title: 'Continuous Learning',
-      description: 'We invest in our team\'s growth and stay ahead of technology trends to provide the most current solutions.',
+      description: 'We foster a culture of growth, staying ahead throuth training, research and knowledge sharing.',
       icon: '📚'
     }
   ];
 
-  const milestones = [
-    { year: '2014', event: 'Company Founded', description: 'Started with 5 engineers and a vision to democratize enterprise cloud solutions' },
-    { year: '2015', event: 'First Major Client', description: 'Secured Fortune 500 manufacturing company as anchor client' },
-    { year: '2016', event: 'AWS Partnership', description: 'Achieved AWS Advanced Consulting Partner status' },
-    { year: '2017', event: '100 Clients Milestone', description: 'Reached 100 enterprise clients across Southeast Asia' },
-    { year: '2018', event: 'Regional Expansion', description: 'Opened offices in Singapore, Malaysia, and Philippines' },
-    { year: '2019', event: 'Security Excellence', description: 'Achieved SOC 2 Type II compliance and ISO 27001 certification' },
-    { year: '2020', event: 'Digital Transformation Leader', description: 'Helped 200+ companies accelerate digital transformation during pandemic' },
-    { year: '2021', event: '500 Clients Achievement', description: 'Reached 500 enterprise clients with 99.9% satisfaction rate' },
-    { year: '2022', event: 'Innovation Lab Launch', description: 'Established R&D lab for AI, ML, and emerging technologies' },
-    { year: '2023', event: 'Sustainability Initiative', description: 'Launched green cloud solutions reducing client carbon footprint by 40%' },
-    { year: '2024', event: 'Next-Gen Platform', description: 'Launched AI-powered system integration platform' }
-  ];
+  // const milestones = [
+  //   { year: '2014', event: 'Company Founded', description: 'Started with 5 engineers and a vision to democratize enterprise cloud solutions' },
+  //   { year: '2015', event: 'First Major Client', description: 'Secured Fortune 500 manufacturing company as anchor client' },
+  //   { year: '2016', event: 'AWS Partnership', description: 'Achieved AWS Advanced Consulting Partner status' },
+  //   { year: '2017', event: '100 Clients Milestone', description: 'Reached 100 enterprise clients across Southeast Asia' },
+  //   { year: '2018', event: 'Regional Expansion', description: 'Opened offices in Singapore, Malaysia, and Philippines' },
+  //   { year: '2019', event: 'Security Excellence', description: 'Achieved SOC 2 Type II compliance and ISO 27001 certification' },
+  //   { year: '2020', event: 'Digital Transformation Leader', description: 'Helped 200+ companies accelerate digital transformation during pandemic' },
+  //   { year: '2021', event: '500 Clients Achievement', description: 'Reached 500 enterprise clients with 99.9% satisfaction rate' },
+  //   { year: '2022', event: 'Innovation Lab Launch', description: 'Established R&D lab for AI, ML, and emerging technologies' },
+  //   { year: '2023', event: 'Sustainability Initiative', description: 'Launched green cloud solutions reducing client carbon footprint by 40%' },
+  //   { year: '2024', event: 'Next-Gen Platform', description: 'Launched AI-powered system integration platform' }
+  // ];
 
   return (
     <div className="pt-24">
@@ -138,9 +148,7 @@ const About = () => {
               About <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">One Cloud</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
-              One Cloud is Southeast Asia's premier System Integration company, specializing in next-generation cloud solutions, 
-              cybersecurity, and digital transformation services. Founded in 2014 with the vision to simplify enterprise IT 
-              infrastructure while maximizing performance, security, and cost-effectiveness.
+              Founded in 2024, One Cloud Technology Company Limited specializes in seamless IT systems and infrastructure integration. We deliver tailored solutions that streamline operations and accelerate digital transformation. Our expert team manages every step from planning to implementation and support. We help businesses drive innovation, growth and a strong competitive advantage.
             </p>
           </motion.div>
 
@@ -152,25 +160,20 @@ const About = () => {
               viewport={{ once: true }}
               className="space-y-8"
             >
-              <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl" style={{ height: '630px' }}>
+              <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl" style={{ height: '545px' }}>
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h3>
                 <div className="space-y-6 text-gray-600 leading-relaxed">
                   <p className="text-base">
-                    Since our founding in 2014, One Cloud has been at the forefront of digital transformation, 
-                    helping enterprises navigate the complex landscape of modern IT infrastructure. What started 
-                    as a small team of passionate engineers has grown into a leading system integration company 
-                    serving over 500 enterprise clients across Southeast Asia.
-                  </p> <br />
+                   Founded in 2024, One Cloud started as a small group of dedicated and passionate engineers driven by a vision to simplify complex IT challenges.
+                  </p>
                   <p className="text-base">
-                    We've successfully deployed over 1,000 cloud projects, secured countless enterprise networks, 
-                    and enabled businesses to scale efficiently in the digital age. Our commitment to innovation, 
-                    excellence, and client success has made us the trusted partner for Fortune 500 companies and 
-                    growing enterprises alike.
-                  </p> <br />
+                   With a strong focus on innovation and customer success, we quickly gained recognition for delivering reliable and effective technology solutions.
+                  </p>
                   <p className="text-base">
-                    Today, we continue to push the boundaries of what's possible in system integration, leveraging 
-                    emerging technologies like AI, machine learning, and quantum computing to deliver solutions 
-                    that not only meet today's needs but anticipate tomorrow's challenges.
+                   Over the years, our tea has expanded, bringing in experts across various IT disciplines to broaden our capabilities.
+                  </p>
+                  <p className="text-base">
+                    Today, we continue to build on our foundation with a commitment to excellence and forward-thinking solutions that meet the needs of a rapidly changing digital world.
                   </p>
                 </div>
               </div>
@@ -187,12 +190,11 @@ const About = () => {
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">Why Choose One Cloud</h3>
                 <div className="space-y-6">
                   {[
-                    { title: 'Proven Expertise', desc: 'Average 15+ years experience per team member with deep technical knowledge' },
-                    { title: 'Comprehensive Solutions', desc: 'End-to-end services from strategy to implementation and ongoing support' },
-                    { title: 'Enterprise-Grade Security', desc: 'SOC 2 Type II compliant with zero security breaches in our history' },
-                    { title: 'Global Reach', desc: 'Serving clients across 15 countries with local support and global capabilities' },
-                    { title: '24/7 Support', desc: 'Round-the-clock monitoring and support with guaranteed response times' },
-                    { title: 'Innovation Focus', desc: 'Continuous investment in R&D and emerging technologies' }
+                    { title: 'Fresh and Innovative', desc: 'Founded in 2024, One Cloud brigns fresh energy and innovative solutions to the IT integration space.' },
+                    { title: 'Expert Team', desc: 'Our team combines strong technical skills with a customer-first approach' },
+                    { title: 'Tailored Solutions', desc: 'We deliver customized solutions that fit your unique business needs' },
+                    { title: 'End-to-End Support', desc: 'From planning to implementation and ongoing support, we manage every step.' },
+                    { title: '24/7 Availability', desc: 'Our support is avilable 24/7 to ensure your operations run smoothly.' },
                   ].map((item, index) => (
                     <div key={index} className="flex items-start space-x-4">
                       <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
@@ -245,11 +247,9 @@ const About = () => {
               </div>
               <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                To empower businesses with reliable, scalable, and secure cloud infrastructure solutions that drive 
-                innovation, efficiency, and sustainable growth. We believe every organization deserves access to 
-                enterprise-grade technology that scales with their ambitions and adapts to their evolving needs.
+               To ensure business continuity, performance, and long-term success through reliable infrastructure, system integration and ongoing service support.
               </p>
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700">Democratize enterprise technology</span>
@@ -262,7 +262,7 @@ const About = () => {
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700">Ensure security and compliance</span>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
 
             <motion.div
@@ -277,11 +277,9 @@ const About = () => {
               </div>
               <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Vision</h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                To become the leading System Integration partner in Southeast Asia and beyond, recognized for delivering 
-                innovative cloud solutions that transform how businesses operate, collaborate, and compete in the 
-                digital economy. We envision a future where technology seamlessly enables human potential.
+               To build trusted technology infrastructure that supports lasting success and operational excellence.
               </p>
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Eye className="w-5 h-5 text-indigo-500" />
                   <span className="text-gray-700">Regional technology leadership</span>
@@ -294,14 +292,14 @@ const About = () => {
                   <Eye className="w-5 h-5 text-indigo-500" />
                   <span className="text-gray-700">Sustainable technology practices</span>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* Enhanced Partner Logos Section */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -313,10 +311,10 @@ const About = () => {
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Trusted Technology Partners
             </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            {/* <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               We collaborate with industry leaders to deliver best-in-class solutions, maintaining the highest 
               levels of certification and partnership status with leading technology vendors.
-            </p>
+            </p> */}
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-16">
@@ -341,7 +339,7 @@ const About = () => {
             ))}
           </div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -372,12 +370,13 @@ const About = () => {
                 <p className="text-indigo-100">Access to worldwide technical resources</p>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
+
         </div>
       </section>
 
       {/* Enhanced Team Section */}
-      <section>
+      {/* <section>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -449,7 +448,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Company Timeline */}
       {/* <section className="py-32">
@@ -503,7 +502,7 @@ const About = () => {
       </section> */}
 
       {/* Enhanced Certifications Section */}
-      <section className='pt-32'>
+      {/* <section className='pt-32'>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -579,7 +578,7 @@ const About = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Information */}
       <section className="pt-32">
@@ -605,21 +604,21 @@ const About = () => {
                   <Phone className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-white mb-2">Call Us</h4>
-                <p className="text-indigo-100">+66-2-123-4567</p>
+                <p className="text-indigo-100">+66 83 225 6781</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">
                   <Mail className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-white mb-2">Email Us</h4>
-                <p className="text-indigo-100">sales@onecloud.th</p>
+                <p className="text-indigo-100">yenaingtint@onecloudtechnology-th.com</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-white mb-2">Visit Us</h4>
-                <p className="text-indigo-100">Bangkok, Thailand</p>
+                <p className="text-indigo-100">No.18/8 Asoke Montri Road, Unit 604, Level 6, FICO Place BIdg, Soi Sukhumvit 21, Klongtoey Nua, Wattana, Bangkok 10110, Thailand</p>
               </div>
             </div>
             

@@ -14,59 +14,73 @@ const Home = () => {
   const coreServices = [
     {
       icon: Cloud,
-      title: 'Cloud Infrastructure',
+      title: 'IT Infrastructure Services',
       description: 'Scalable, secure cloud solutions with enterprise-grade performance and reliability.',
-      features: ['Multi-cloud deployment', 'Auto-scaling', 'Disaster recovery', 'Cost optimization']
+      features: ['Data center design and deployment', 'Server and storage solutions', 'Virtualization and hyperconverged infrastructure', 'Network architecture and implementation']
     },
     {
       icon: Shield,
-      title: 'Cybersecurity',
+      title: 'Cloud Services',
       description: 'Advanced threat protection with AI-powered detection and response capabilities.',
-      features: ['Zero-trust architecture', 'SOC monitoring', 'Compliance management', 'Incident response']
+      features: ['Public, private and hybrid cloud deployment', 'Cloud migration adn optimization', 'Managed cloud services', 'Backup and disaster recovery in the cloud']
     },
     {
       icon: Database,
-      title: 'Data Management',
+      title: 'Cybersecurity Solutions',
       description: 'Comprehensive data solutions from storage to analytics and business intelligence.',
-      features: ['Data warehousing', 'Real-time analytics', 'Backup & recovery', 'Data governance']
+      features: ['Network security (firewalls, IPS/IDS)', 'Endpoint and email security', 'Identity and access management', 'Security operations center (SOC) services', 'Security compliance and risk assessment']
     },
     {
       icon: Server,
-      title: 'Infrastructure Services',
+      title: 'System Integration',
       description: 'Complete IT infrastructure management with proactive monitoring and optimization.',
-      features: ['Server management', 'Network optimization', 'Performance tuning', 'Capacity planning']
-    }
+      features: ['Integration of multi-vendor hardware and software', 'Application and database integration', 'API and middleware configuration', 'Legacy system modernization']
+    }, 
+    {
+      icon: Server,
+      title: 'Managed Services',
+      description: 'Complete IT infrastructure management with proactive monitoring and optimization.',
+      features: ['IT operations and monitoring', 'Helpdesk and user support', 'Patch management and system updates', 'SLA-based support services']
+      
+    },
+     {
+      icon: Server,
+      title: 'Digital Transformation Consulting',
+      description: 'Complete IT infrastructure management with proactive monitoring and optimization.',
+      features: ['IT strategy and roadmap development', 'Automation and process optimization', 'Cloud-native application development', 'Business continulty planning']
+      
+    },
   ];
 
-  const industries = [
-    { name: 'Financial Services', clients: '150+', description: 'Banks, insurance, fintech' },
-    { name: 'Healthcare', clients: '80+', description: 'Hospitals, clinics, pharma' },
-    { name: 'Manufacturing', clients: '120+', description: 'Automotive, electronics, industrial' },
-    { name: 'Retail & E-commerce', clients: '90+', description: 'Online stores, retail chains' },
-    { name: 'Education', clients: '60+', description: 'Universities, schools, training' },
-    { name: 'Government', clients: '40+', description: 'Public sector, agencies' }
-  ];
+  // const industries = [
+  //   { name: 'Financial Services', clients: '150+', description: 'Banks, insurance, fintech' },
+  //   { name: 'Healthcare', clients: '80+', description: 'Hospitals, clinics, pharma' },
+  //   { name: 'Manufacturing', clients: '120+', description: 'Automotive, electronics, industrial' },
+  //   { name: 'Retail & E-commerce', clients: '90+', description: 'Online stores, retail chains' },
+  //   { name: 'Education', clients: '60+', description: 'Universities, schools, training' },
+  //   { name: 'Government', clients: '40+', description: 'Public sector, agencies' }
+  // ];
 
-  const testimonials = [
-    {
-      quote: "One Cloud transformed our entire IT infrastructure. Their expertise in cloud migration saved us 40% in operational costs while improving our system reliability.",
-      author: "Sarah Chen",
-      position: "CTO, TechCorp Asia",
-      company: "Fortune 500 Technology Company"
-    },
-    {
-      quote: "The security solutions implemented by One Cloud have been exceptional. We've had zero security incidents since their deployment, and their 24/7 monitoring gives us peace of mind.",
-      author: "Michael Rodriguez",
-      position: "IT Director, SecureBank",
-      company: "Leading Financial Institution"
-    },
-    {
-      quote: "Their DevOps automation reduced our deployment time from hours to minutes. The team's expertise and support have been invaluable to our digital transformation journey.",
-      author: "Lisa Wang",
-      position: "Head of Engineering, InnovateLab",
-      company: "Healthcare Technology Startup"
-    }
-  ];
+  // const testimonials = [
+  //   {
+  //     quote: "One Cloud transformed our entire IT infrastructure. Their expertise in cloud migration saved us 40% in operational costs while improving our system reliability.",
+  //     author: "Sarah Chen",
+  //     position: "CTO, TechCorp Asia",
+  //     company: "Fortune 500 Technology Company"
+  //   },
+  //   {
+  //     quote: "The security solutions implemented by One Cloud have been exceptional. We've had zero security incidents since their deployment, and their 24/7 monitoring gives us peace of mind.",
+  //     author: "Michael Rodriguez",
+  //     position: "IT Director, SecureBank",
+  //     company: "Leading Financial Institution"
+  //   },
+  //   {
+  //     quote: "Their DevOps automation reduced our deployment time from hours to minutes. The team's expertise and support have been invaluable to our digital transformation journey.",
+  //     author: "Lisa Wang",
+  //     position: "Head of Engineering, InnovateLab",
+  //     company: "Healthcare Technology Startup"
+  //   }
+  // ];
 
   return (
     <div className="pt-24">
@@ -97,9 +111,7 @@ const Home = () => {
                 </h1>
                 
                 <p className="text-xl text-gray-700 leading-relaxed max-w-3xl font-light">
-                  Powered by <span className="font-semibold text-indigo-600">One Cloud</span> – Your trusted partner for enterprise-grade cloud infrastructure, 
-                  cybersecurity solutions, and digital transformation services that scale with your business ambitions.
-                </p>
+                  Powered by <span className="font-semibold text-indigo-600">One Cloud Technology Company Limited</span> – Your trusted partner for enterprise-grade Cloud Services, Cybersecurity Solutions, System Integration, Managed Services, Digital Transformation Consulting, and Project Implementation & Support that scale with your business ambitions.              </p>
 
                 <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-5 shadow-2xl">
                   <div className="grid grid-cols-2 gap-4 text-center">
@@ -133,7 +145,7 @@ const Home = () => {
               </div>
 
               {/* Trust Indicators */}
-              <div className="flex items-center space-x-8 pt-6">
+              {/* <div className="flex items-center space-x-8 pt-6">
                 <div className="flex items-center space-x-2">
                   <Shield className="w-5 h-5 text-green-600" />
                   <span className="text-sm text-gray-600">SOC 2 Certified</span>
@@ -146,7 +158,7 @@ const Home = () => {
                   <Globe className="w-5 h-5 text-purple-600" />
                   <span className="text-sm text-gray-600">Global Coverage</span>
                 </div>
-              </div>
+              </div> */}
             </div>
             
             {/* Right Side - Visual Elements */}
@@ -220,8 +232,7 @@ const Home = () => {
               Core <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Services</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Comprehensive technology solutions designed to accelerate your digital transformation 
-              and drive sustainable business growth in the cloud-first era.
+                We are a trusted integration solutions provider, delivering tailored services that enable seamless system connectivity and business process efficiency.
             </p>
           </motion.div>
           
@@ -263,7 +274,7 @@ const Home = () => {
       </section>
 
       {/* Industries We Serve */}
-      <section className="pt-32">
+      {/* <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -303,10 +314,10 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Client Testimonials */}
-      <section className="pt-32">
+      {/* <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -354,7 +365,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Enhanced Stats Section */}
       <section className="pt-32">
@@ -416,8 +427,7 @@ const Home = () => {
                 Ready to Transform Your IT Infrastructure?
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
-                Join hundreds of enterprises who trust One Cloud for their digital transformation journey. 
-                Let's build the future of your business together with cutting-edge cloud solutions.
+                  Partner with One Cloud to unlock scalable, secure and future-ready IT infrastructure throught expert integration and innovative digital solutions.
               </p>
               <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 max-w-4xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
