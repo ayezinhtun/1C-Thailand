@@ -62,7 +62,7 @@ const Footer = () => {
           <div className="mt-12 pt-8 border-t border-white/20">
             <div className="text-center">
               <p className="text-sm text-gray-600">
-                © 2024 One Cloud – Designed & Powered by 1Cloud Next Generation. All rights reserved.
+                © 2024 One Cloud – Designed & Powered by <a href="https://1cloudng.com/">1Cloud Next Generation.1CNG</a> . All rights reserved.
               </p>
             </div>
           </div>

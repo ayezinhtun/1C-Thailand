@@ -41,30 +41,30 @@ const About = () => {
       expertise: ['Zero Trust Architecture', 'Threat Intelligence', 'Compliance'],
       achievements: ['Former NSA cybersecurity analyst', 'CISSP certified', 'Led security for government agencies']
     },
-    { 
-      name: 'Emily Wang', 
-      role: 'VP of Engineering', 
-      experience: '15+ years in software development and team leadership',
-      education: 'BS Software Engineering, UC Berkeley',
-      expertise: ['Agile Development', 'Team Leadership', 'Quality Assurance'],
-      achievements: ['Built engineering teams of 100+ developers', 'Reduced deployment time by 90%', 'Patent holder in cloud computing']
-    },
-    { 
-      name: 'David Kim', 
-      role: 'VP of Sales & Business Development', 
-      experience: '16+ years in enterprise sales and partnerships',
-      education: 'MBA, Wharton School',
-      expertise: ['Enterprise Sales', 'Strategic Partnerships', 'Market Expansion'],
-      achievements: ['Generated $500M+ in revenue', 'Established partnerships with 50+ vendors', 'Expanded to 15 countries']
-    },
-    { 
-      name: 'Lisa Thompson', 
-      role: 'VP of Customer Success', 
-      experience: '14+ years in customer relationship management',
-      education: 'MS Business Administration, Harvard',
-      expertise: ['Customer Success', 'Account Management', 'Service Delivery'],
-      achievements: ['Achieved 98% customer retention rate', 'Built customer success team of 50+', 'Reduced churn by 75%']
-    }
+    // { 
+    //   name: 'Emily Wang', 
+    //   role: 'VP of Engineering', 
+    //   experience: '15+ years in software development and team leadership',
+    //   education: 'BS Software Engineering, UC Berkeley',
+    //   expertise: ['Agile Development', 'Team Leadership', 'Quality Assurance'],
+    //   achievements: ['Built engineering teams of 100+ developers', 'Reduced deployment time by 90%', 'Patent holder in cloud computing']
+    // },
+    // { 
+    //   name: 'David Kim', 
+    //   role: 'VP of Sales & Business Development', 
+    //   experience: '16+ years in enterprise sales and partnerships',
+    //   education: 'MBA, Wharton School',
+    //   expertise: ['Enterprise Sales', 'Strategic Partnerships', 'Market Expansion'],
+    //   achievements: ['Generated $500M+ in revenue', 'Established partnerships with 50+ vendors', 'Expanded to 15 countries']
+    // },
+    // { 
+    //   name: 'Lisa Thompson', 
+    //   role: 'VP of Customer Success', 
+    //   experience: '14+ years in customer relationship management',
+    //   education: 'MS Business Administration, Harvard',
+    //   expertise: ['Customer Success', 'Account Management', 'Service Delivery'],
+    //   achievements: ['Achieved 98% customer retention rate', 'Built customer success team of 50+', 'Reduced churn by 75%']
+    // }
   ];
 
   const certifications = [
@@ -160,13 +160,13 @@ const About = () => {
                     helping enterprises navigate the complex landscape of modern IT infrastructure. What started 
                     as a small team of passionate engineers has grown into a leading system integration company 
                     serving over 500 enterprise clients across Southeast Asia.
-                  </p>
+                  </p> <br />
                   <p className="text-base">
                     We've successfully deployed over 1,000 cloud projects, secured countless enterprise networks, 
                     and enabled businesses to scale efficiently in the digital age. Our commitment to innovation, 
                     excellence, and client success has made us the trusted partner for Fortune 500 companies and 
                     growing enterprises alike.
-                  </p>
+                  </p> <br />
                   <p className="text-base">
                     Today, we continue to push the boundaries of what's possible in system integration, leveraging 
                     emerging technologies like AI, machine learning, and quantum computing to deliver solutions 
@@ -452,7 +452,7 @@ const About = () => {
       </section>
 
       {/* Company Timeline */}
-      <section className="py-32">
+      {/* <section className="py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -500,10 +500,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Enhanced Certifications Section */}
-      <section>
+      <section className='pt-32'>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -254,7 +254,7 @@ const Services = () => {
       </section>
 
       {/* SLA & Support */}
-      <section className="pt-20">
+      {/* <section className="pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <motion.div
@@ -285,7 +285,7 @@ const Services = () => {
               </div>
             </motion.div>
 
-            <motion.div
+             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
@@ -309,10 +309,10 @@ const Services = () => {
                   </div>
                 ))}
               </div>
-            </motion.div>
+            </motion.div> 
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
