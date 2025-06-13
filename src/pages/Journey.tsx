@@ -423,7 +423,7 @@ const Journey = () => {
                 <div className="w-16 h-16 mx-auto mb-8 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <achievement.icon className="w-10 h-10 text-white" />
                 </div>
-                <div className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors">
+                <div className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors">
                   {achievement.number}
                 </div>
                 <div className="text-xl font-semibold text-gray-900 mb-3">
