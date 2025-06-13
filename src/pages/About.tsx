@@ -126,7 +126,7 @@ const About = () => {
   return (
     <div className="pt-24">
       {/* Enhanced About OneCloud Section */}
-      <section className="py-32">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -134,10 +134,10 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-20"
           >
-            <h1 className="text-6xl lg:text-7xl font-bold text-gray-900 mb-8">
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
               About <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">One Cloud</span>
             </h1>
-            <p className="text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
               One Cloud is Southeast Asia's premier System Integration company, specializing in next-generation cloud solutions, 
               cybersecurity, and digital transformation services. Founded in 2014 with the vision to simplify enterprise IT 
               infrastructure while maximizing performance, security, and cost-effectiveness.
@@ -152,22 +152,22 @@ const About = () => {
               viewport={{ once: true }}
               className="space-y-8"
             >
-              <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl">
+              <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl" style={{ height: '630px' }}>
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h3>
                 <div className="space-y-6 text-gray-600 leading-relaxed">
-                  <p className="text-lg">
+                  <p className="text-base">
                     Since our founding in 2014, One Cloud has been at the forefront of digital transformation, 
                     helping enterprises navigate the complex landscape of modern IT infrastructure. What started 
                     as a small team of passionate engineers has grown into a leading system integration company 
                     serving over 500 enterprise clients across Southeast Asia.
                   </p>
-                  <p className="text-lg">
+                  <p className="text-base">
                     We've successfully deployed over 1,000 cloud projects, secured countless enterprise networks, 
                     and enabled businesses to scale efficiently in the digital age. Our commitment to innovation, 
                     excellence, and client success has made us the trusted partner for Fortune 500 companies and 
                     growing enterprises alike.
                   </p>
-                  <p className="text-lg">
+                  <p className="text-base">
                     Today, we continue to push the boundaries of what's possible in system integration, leveraging 
                     emerging technologies like AI, machine learning, and quantum computing to deliver solutions 
                     that not only meet today's needs but anticipate tomorrow's challenges.
@@ -230,7 +230,7 @@ const About = () => {
       </section>
 
       {/* Enhanced Mission & Vision Section */}
-      <section className="py-32">
+      <section>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <motion.div
@@ -240,11 +240,11 @@ const About = () => {
               viewport={{ once: true }}
               className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-16 shadow-2xl"
             >
-              <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center mb-10">
+              <div className="w-16 h-16 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center mb-5">
                 <Target className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-4xl font-bold text-gray-900 mb-8">Our Mission</h3>
-              <p className="text-xl text-gray-600 leading-relaxed mb-8">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h3>
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
                 To empower businesses with reliable, scalable, and secure cloud infrastructure solutions that drive 
                 innovation, efficiency, and sustainable growth. We believe every organization deserves access to 
                 enterprise-grade technology that scales with their ambitions and adapts to their evolving needs.
@@ -272,11 +272,11 @@ const About = () => {
               viewport={{ once: true }}
               className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-16 shadow-2xl"
             >
-              <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-emerald-500 to-teal-500 flex items-center justify-center mb-10">
+              <div className="w-16 h-16 rounded-3xl bg-gradient-to-r from-emerald-500 to-teal-500 flex items-center justify-center mb-5">
                 <Eye className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-4xl font-bold text-gray-900 mb-8">Our Vision</h3>
-              <p className="text-xl text-gray-600 leading-relaxed mb-8">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Vision</h3>
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
                 To become the leading System Integration partner in Southeast Asia and beyond, recognized for delivering 
                 innovative cloud solutions that transform how businesses operate, collaborate, and compete in the 
                 digital economy. We envision a future where technology seamlessly enables human potential.
@@ -310,10 +310,10 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Trusted Technology Partners
             </h2>
-            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               We collaborate with industry leaders to deliver best-in-class solutions, maintaining the highest 
               levels of certification and partnership status with leading technology vendors.
             </p>
@@ -377,7 +377,7 @@ const About = () => {
       </section>
 
       {/* Enhanced Team Section */}
-      <section className="py-32">
+      <section>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -386,10 +386,10 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Meet Our Leadership Team
             </h2>
-            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Industry veterans with deep expertise in cloud technologies, system integration, and digital transformation. 
               Our leadership team brings together decades of experience from leading technology companies and academic institutions.
             </p>
@@ -406,8 +406,8 @@ const About = () => {
                 className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 group hover:scale-105"
               >
                 <div className="text-center mb-6">
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
-                    <Users className="w-12 h-12 text-white" />
+                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
+                    <Users className="w-10 h-10 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
                     {member.name}
@@ -461,10 +461,10 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Our Journey Through Time
             </h2>
-            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               A decade of growth, innovation, and milestone achievements that have shaped us into the leading 
               system integration company we are today.
             </p>
@@ -503,7 +503,7 @@ const About = () => {
       </section>
 
       {/* Enhanced Certifications Section */}
-      <section className="py-32">
+      <section>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -512,10 +512,10 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Certifications & Compliance
             </h2>
-            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Maintaining the highest standards of security, quality, and service excellence through rigorous 
               certification processes and continuous compliance monitoring.
             </p>
@@ -582,7 +582,7 @@ const About = () => {
       </section>
 
       {/* Contact Information */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

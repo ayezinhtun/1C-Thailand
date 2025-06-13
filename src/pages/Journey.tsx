@@ -166,10 +166,10 @@ const Journey = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-20"
           >
-            <h1 className="text-6xl lg:text-7xl font-bold text-gray-900 mb-8">
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
               Our <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Journey</span>
             </h1>
-            <p className="text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed mb-12">
+            <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed mb-12">
               A decade of innovation, growth, and technological advancement. From a small startup with big dreams 
               to Southeast Asia's leading System Integration company, serving enterprises across 15 countries 
               with cutting-edge cloud solutions and digital transformation services.
@@ -194,7 +194,7 @@ const Journey = () => {
       </section>
 
       {/* Enhanced Timeline Section */}
-      <section className="py-32">
+      <section>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -203,7 +203,7 @@ const Journey = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Milestones & Achievements
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -237,22 +237,22 @@ const Journey = () => {
                       className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl hover:shadow-3xl transition-all duration-300"
                     >
                       <div className="flex items-center space-x-6 mb-8">
-                        <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
+                        <div className="w-16 h-16 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
                           <step.icon className="w-10 h-10 text-white" />
                         </div>
                         <div>
-                          <div className="text-4xl font-bold text-indigo-600 mb-2">{step.year}</div>
-                          <h3 className="text-2xl font-bold text-gray-900">{step.title}</h3>
+                          <div className="text-3xl font-bold text-indigo-600 mb-2">{step.year}</div>
+                          <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
                           <div className="text-sm text-purple-600 font-medium">{step.milestone}</div>
                         </div>
                       </div>
                       
-                      <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                      <p className="text-gray-600 leading-relaxed mb-8 text-base">
                         {step.description}
                       </p>
                       
                       {/* Metrics */}
-                      <div className="grid grid-cols-3 gap-4 mb-8 p-6 bg-white/5 rounded-2xl">
+                      <div className="grid grid-cols-3 gap-4 mb-8 p-3 bg-white/5 rounded-2xl">
                         <div className="text-center">
                           <div className="text-2xl font-bold text-indigo-600">{step.metrics.clients}</div>
                           <div className="text-sm text-gray-600">Clients</div>
@@ -288,7 +288,7 @@ const Journey = () => {
       </section>
 
       {/* Innovation Timeline */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -297,7 +297,7 @@ const Journey = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Innovation <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Timeline</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -331,7 +331,7 @@ const Journey = () => {
       </section>
 
       {/* Client Success Stories */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -340,7 +340,7 @@ const Journey = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Client Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -393,7 +393,7 @@ const Journey = () => {
       </section>
 
       {/* Enhanced Milestones Section */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -402,7 +402,7 @@ const Journey = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Key Achievements
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -420,10 +420,10 @@ const Journey = () => {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl hover:shadow-3xl transition-all duration-300 text-center group hover:scale-105"
               >
-                <div className="w-20 h-20 mx-auto mb-8 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 mx-auto mb-8 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <achievement.icon className="w-10 h-10 text-white" />
                 </div>
-                <div className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors">
+                <div className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors">
                   {achievement.number}
                 </div>
                 <div className="text-xl font-semibold text-gray-900 mb-3">
@@ -439,7 +439,7 @@ const Journey = () => {
       </section>
 
       {/* Future Vision Section */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -451,10 +451,10 @@ const Journey = () => {
             <div className="w-24 h-24 mx-auto mb-10 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
               <Rocket className="w-12 h-12 text-white" />
             </div>
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Looking Forward
             </h2>
-            <p className="text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed mb-12">
+            <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed mb-12">
               As we continue our journey into the next decade, we're committed to pushing the boundaries of what's possible in 
               system integration and cloud services. Our roadmap includes revolutionary AI-powered automation, quantum-ready 
               security solutions, and sustainable cloud technologies that will define the future of enterprise IT.

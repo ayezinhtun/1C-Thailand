@@ -257,18 +257,18 @@ const Solutions = () => {
   return (
     <div className="pt-24">
       {/* Enhanced Hero Section */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center mb-20"
+            className="text-center"
           >
-            <h1 className="text-6xl lg:text-7xl font-bold text-gray-900 mb-8">
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
               Premium <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Solutions</span>
             </h1>
-            <p className="text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed mb-12">
+            <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed mb-12">
               Industry-specific solutions designed to address unique challenges and accelerate digital transformation 
               across various sectors. Our proven methodologies and expert implementation ensure successful outcomes 
               with measurable business impact and sustainable growth.
@@ -297,7 +297,7 @@ const Solutions = () => {
       </section>
 
       {/* Enhanced Solutions Grid */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -306,7 +306,7 @@ const Solutions = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Comprehensive Solution Portfolio
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -329,11 +329,11 @@ const Solutions = () => {
                 {/* Content */}
                 <div className={`space-y-8 ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
                   <div className="flex items-center space-x-6">
-                    <div className={`w-20 h-20 rounded-3xl bg-gradient-to-r ${solution.gradient} flex items-center justify-center`}>
+                    <div className={`w-16 h-16 rounded-3xl bg-gradient-to-r ${solution.gradient} flex items-center justify-center`}>
                       <solution.icon className="w-10 h-10 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
+                      <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
                         {solution.title}
                       </h2>
                       <div className="flex items-center space-x-4 text-sm text-gray-600">
@@ -353,7 +353,7 @@ const Solutions = () => {
                     </div>
                   </div>
                   
-                  <p className="text-lg text-gray-600 leading-relaxed">
+                  <p className="text-base text-gray-600 leading-relaxed">
                     {solution.description}
                   </p>
                   
@@ -448,7 +448,7 @@ const Solutions = () => {
       </section>
 
       {/* Technology Stack */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -457,7 +457,7 @@ const Solutions = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Technology Stack
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -498,7 +498,7 @@ const Solutions = () => {
       </section>
 
       {/* Implementation Process */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -507,7 +507,7 @@ const Solutions = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Implementation Process
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -553,7 +553,7 @@ const Solutions = () => {
                   </div>
                 </div>
                 
-                <div className="w-24 h-24 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center flex-shrink-0">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center flex-shrink-0">
                   <div className="text-2xl font-bold text-white">{process.step}</div>
                 </div>
               </motion.div>
@@ -563,7 +563,7 @@ const Solutions = () => {
       </section>
 
       {/* Success Metrics */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -572,7 +572,7 @@ const Solutions = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Proven Results
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -590,7 +590,7 @@ const Solutions = () => {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl hover:shadow-3xl transition-all duration-300 text-center group hover:scale-105"
               >
-                <div className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4 group-hover:scale-110 transition-transform duration-300">
                   {metric.metric}
                 </div>
                 <div className="text-xl font-semibold text-gray-900 mb-3">
@@ -606,7 +606,7 @@ const Solutions = () => {
       </section>
 
       {/* Custom Solutions CTA */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -615,10 +615,10 @@ const Solutions = () => {
             viewport={{ once: true }}
             className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-3xl p-16 text-center shadow-2xl"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-white mb-8">
               Need a Custom Solution?
             </h2>
-            <p className="text-2xl text-indigo-100 max-w-4xl mx-auto mb-12">
+            <p className="text-xl text-indigo-100 max-w-4xl mx-auto mb-12">
               Our expert team can design and implement tailored solutions that perfectly match your unique 
               business requirements, industry-specific challenges, and strategic objectives. Let's build 
               something extraordinary together.
@@ -656,11 +656,11 @@ const Solutions = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button className="inline-flex items-center justify-center px-12 py-6 bg-white text-indigo-600 font-semibold rounded-3xl hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl group text-xl">
+              <button className="inline-flex items-center justify-center px-12 py-6 bg-white text-indigo-600 font-semibold rounded-3xl hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl group text-lg">
                 Discuss Your Project
                 <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="inline-flex items-center justify-center px-12 py-6 bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-lg hover:shadow-xl text-xl">
+              <button className="inline-flex items-center justify-center px-12 py-6 bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-lg hover:shadow-xl text-lg">
                 View Case Studies
               </button>
             </div>

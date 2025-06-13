@@ -104,7 +104,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="pt-24">
+    <div className="pt-32">
       {/* Hero Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -254,7 +254,7 @@ const Services = () => {
       </section>
 
       {/* SLA & Support */}
-      <section className="py-20">
+      <section className="pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <motion.div

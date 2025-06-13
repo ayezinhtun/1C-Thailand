@@ -89,26 +89,26 @@ const Home = () => {
                   Next Generation System Integration
                 </div>
                 
-                <h1 className="text-6xl lg:text-8xl font-bold text-gray-900 leading-tight">
+                <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   Transforming IT into
                   <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent block mt-2">
                     Smart Cloud Solutions
                   </span>
                 </h1>
                 
-                <p className="text-2xl text-gray-700 leading-relaxed max-w-3xl font-light">
+                <p className="text-xl text-gray-700 leading-relaxed max-w-3xl font-light">
                   Powered by <span className="font-semibold text-indigo-600">One Cloud</span> – Your trusted partner for enterprise-grade cloud infrastructure, 
                   cybersecurity solutions, and digital transformation services that scale with your business ambitions.
                 </p>
 
-                <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-6 shadow-2xl">
+                <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-5 shadow-2xl">
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
-                      <div className="text-3xl font-bold text-indigo-600">500+</div>
+                      <div className="text-2xl font-bold text-indigo-600">500+</div>
                       <div className="text-sm text-gray-600">Enterprise Clients</div>
                     </div>
                     <div>
-                      <div className="text-3xl font-bold text-purple-600">99.9%</div>
+                      <div className="text-2xl font-bold text-purple-600">99.9%</div>
                       <div className="text-sm text-gray-600">Uptime SLA</div>
                     </div>
                   </div>
@@ -119,14 +119,14 @@ const Home = () => {
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link 
                   to="/solutions"
-                  className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-3xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-2xl hover:shadow-3xl group text-lg"
+                  className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-3xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-2xl hover:shadow-3xl group text-base"
                 >
                   Explore Solutions
                   <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link
                   to="/contact"
-                  className="inline-flex items-center justify-center px-10 py-5 bg-white/20 backdrop-blur-lg border border-white/30 text-gray-800 font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-2xl hover:shadow-3xl text-lg"
+                  className="inline-flex items-center justify-center px-10 py-5 bg-white/20 backdrop-blur-lg border border-white/30 text-gray-800 font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-2xl hover:shadow-3xl text-base"
                 >
                   Contact Sales
                 </Link>
@@ -207,7 +207,7 @@ const Home = () => {
       </section>
 
       {/* Core Services Overview */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -216,10 +216,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Core <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Services</span>
             </h2>
-            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Comprehensive technology solutions designed to accelerate your digital transformation 
               and drive sustainable business growth in the cloud-first era.
             </p>
@@ -236,14 +236,14 @@ const Home = () => {
                 className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl hover:shadow-3xl transition-all duration-300 group hover:scale-105"
               >
                 <div className="flex items-start space-x-6">
-                  <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-16 h-16 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <service.icon className="w-10 h-10 text-white" />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors">
                       {service.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed mb-6 text-lg">
+                    <p className="text-gray-600 leading-relaxed mb-6 text-base">
                       {service.description}
                     </p>
                     <div className="grid grid-cols-2 gap-3">
@@ -263,7 +263,7 @@ const Home = () => {
       </section>
 
       {/* Industries We Serve */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -272,10 +272,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Industries We <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Serve</span>
             </h2>
-            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Trusted by leading organizations across diverse industries, delivering tailored solutions 
               that address unique sector-specific challenges and regulatory requirements.
             </p>
@@ -306,7 +306,7 @@ const Home = () => {
       </section>
 
       {/* Client Testimonials */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -315,10 +315,10 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
               Client <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Success Stories</span>
             </h2>
-            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Hear from industry leaders who have transformed their businesses with our solutions
             </p>
           </motion.div>
@@ -341,7 +341,7 @@ const Home = () => {
                       </svg>
                     ))}
                   </div>
-                  <p className="text-gray-700 leading-relaxed italic text-lg mb-6">
+                  <p className="text-gray-700 leading-relaxed italic text-base mb-6">
                     "{testimonial.quote}"
                   </p>
                 </div>
@@ -357,7 +357,7 @@ const Home = () => {
       </section>
 
       {/* Enhanced Stats Section */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -367,10 +367,10 @@ const Home = () => {
             className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-16 shadow-2xl"
           >
             <div className="text-center mb-16">
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
                 Proven Track Record
               </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-base text-gray-600 max-w-3xl mx-auto">
                 Numbers that demonstrate our commitment to excellence and client success
               </p>
             </div>
@@ -385,13 +385,13 @@ const Home = () => {
                   viewport={{ once: true }}
                   className="space-y-4"
                 >
-                  <div className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                  <div className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                     {stat.number}
                   </div>
                   <div className="text-xl font-semibold text-gray-900">
                     {stat.label}
                   </div>
-                  <div className="text-gray-600">
+                  <div className="text-gray-600 text-sm">
                     {stat.description}
                   </div>
                 </motion.div>
@@ -402,7 +402,7 @@ const Home = () => {
       </section>
 
       {/* Enhanced CTA Section */}
-      <section className="py-32">
+      <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -412,10 +412,10 @@ const Home = () => {
             className="text-center space-y-12"
           >
             <div>
-              <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
                 Ready to Transform Your IT Infrastructure?
               </h2>
-              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
+              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
                 Join hundreds of enterprises who trust One Cloud for their digital transformation journey. 
                 Let's build the future of your business together with cutting-edge cloud solutions.
               </p>
@@ -449,14 +449,14 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-3xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-2xl hover:shadow-3xl group text-xl"
+                className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-3xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-2xl hover:shadow-3xl group text-base"
               >
                 Start Your Journey
                 <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 to="/services"
-                className="inline-flex items-center justify-center px-12 py-6 bg-white/20 backdrop-blur-lg border border-white/30 text-gray-800 font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-2xl hover:shadow-3xl text-xl"
+                className="inline-flex items-center justify-center px-12 py-6 bg-white/20 backdrop-blur-lg border border-white/30 text-gray-800 font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-2xl hover:shadow-3xl text-base"
               >
                 View All Services
               </Link>
