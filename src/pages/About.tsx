@@ -331,31 +331,32 @@ const About = () => {
             </p> */}
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-16">
-            {partners.map((partner, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.05, y: -5 }}
-                className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 text-center group"
-              >
-                <div className="w-20 h-20 mx-auto mb-6 rounded-3xl bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center group-hover:from-indigo-100 group-hover:to-purple-100 transition-all duration-300">
-                    <img
-                      src={partner.logo}
-                      alt={`${partner.name} logo`}
-                      className="w-100 h-100 object-contain"
-                    />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-800 group-hover:text-indigo-600 transition-colors mb-2">
-                  {partner.name}
-                </h3>
-                <p className="text-sm text-gray-600">{partner.description}</p>
-              </motion.div>
-            ))}
-          </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-16">
+  {partners.map((partner, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, scale: 0.8 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      viewport={{ once: true }}
+      whileHover={{ scale: 1.05, y: -5 }}
+      className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 text-center group"
+    >
+      <div className="w-[200px] h-[200px] mx-auto mb-6 rounded-3xl bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center group-hover:from-indigo-100 group-hover:to-purple-100 transition-all duration-300">
+        <img
+          src={partner.logo}
+          alt={`${partner.name} logo`}
+          className="w-full h-full object-contain"
+        />
+      </div>
+      <h3 className="text-lg font-semibold text-gray-800 group-hover:text-indigo-600 transition-colors mb-2">
+        {partner.name}
+      </h3>
+      <p className="text-sm text-gray-600">{partner.description}</p>
+    </motion.div>
+  ))}
+</div>
+
 
           {/* <motion.div
             initial={{ opacity: 0, y: 20 }}

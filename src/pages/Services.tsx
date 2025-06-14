@@ -107,7 +107,7 @@ const Services = () => {
   return (
     <div className="pt-32">
       {/* Hero Section */}
-      <section className="py-20">
+      <section className="pt-20 pb-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -127,7 +127,7 @@ const Services = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20">
+      <section className="pb-20">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {services.map((service, index) => (
@@ -140,13 +140,13 @@ const Services = () => {
           whileHover={{ scale: 1.05, rotateY: 5 }}
           className="bg-white/5 backdrop-blur-md border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 group"
         >
-          <div
+          {/* <div
             className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}
           >
             <service.icon className="w-8 h-8 text-white" />
-          </div>
+          </div> */}
 
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 group-hover:text-indigo-600 transition-colors min-h-[90px]">
+          <h3 className="text-2xl font-bold pt-4 text-gray-900 mb-6 group-hover:text-indigo-600 transition-colors min-h-[90px]">
             {service.title}
           </h3>
 
