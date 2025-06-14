@@ -100,7 +100,7 @@ const About = () => {
     },
     {
       title: 'Excellence',
-      description: 'We aim for the highest standards, ensuring quality and reliability in everythin we deliver.',
+      description: 'We aim for the highest standards, ensuring quality and reliability in everything we deliver.',
       icon: '🤝'
     },
     {
