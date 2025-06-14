@@ -11,7 +11,7 @@ import Symantec from '../assets/img/Symantec-copy.png';
 import HPE from '../assets/img/Hewlett-Packard-copy.png';
 import TrendMicro from '../assets/img/Trendmicro-copy.png';
 import Veritas from '../assets/img/Veritas-copy.png';
-import VMware from '../assets/img/VMware-Advanced-150x150.png';
+import VMware from '../assets/img/VMware.png';
 
 
 
@@ -342,7 +342,7 @@ const About = () => {
       whileHover={{ scale: 1.05, y: -5 }}
       className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 text-center group"
     >
-      <div className="w-[200px] h-[200px] mx-auto mb-6 rounded-3xl bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center group-hover:from-indigo-100 group-hover:to-purple-100 transition-all duration-300">
+      <div className="w-[200px] h-[100px] mx-auto mb-6 rounded-3xl bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center group-hover:from-indigo-100 group-hover:to-purple-100 transition-all duration-300">
         <img
           src={partner.logo}
           alt={`${partner.name} logo`}
