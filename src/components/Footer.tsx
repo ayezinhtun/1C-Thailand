@@ -39,10 +39,10 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4 text-indigo-600" />
-                  <span className="text-sm text-gray-600">+66 83 225 6781</span>
+                  <span className="text-sm text-gray-600">+66-83-225-6781</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <MapPin className="w-16 h-16 text-indigo-600 mt-0.5" />
+                  <MapPin className="w-12 h-12 text-indigo-600 mt-0.5" />
                   <span className="text-sm text-gray-600">No.18/8 Asoke Montri Road, Unit 604, Level 6, FICO Place BIdg, Soi Sukhumvit 21, Klongtoey Nua, Wattana, Bangkok 10110, Thailand.</span>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Footer = () => {
           <div className="mt-12 pt-8 border-t border-white/20">
             <div className="text-center">
               <p className="text-sm text-gray-600">
-                © 2024 One Cloud – Designed & Powered by <a href="https://1cloudng.com/" className='text-blue-500'>1Cloud Next Generation.1CNG</a> . All rights reserved.
+                © 2024 One Cloud Company Limited . All rights reserved.
               </p>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Navigation = () => {
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/journey', label: 'Journey' },
-    // { path: '/services', label: 'Services' },
+    { path: '/services', label: 'Services' },
     // { path: '/solutions', label: 'Solutions' },
     { path: '/contact', label: 'Contact' }
   ];
@@ -33,8 +33,8 @@ const Navigation = () => {
         <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-full px-8 py-3 shadow-2xl">
           <div className="flex items-center space-x-8">
             <Link to="/" className="flex items-center space-x-2 text-gray-800 hover:text-indigo-600 transition-colors">
-              <Cloud className="w-6 h-6" />
-              <span className="font-bold text-lg">One Cloud</span>
+              <Cloud className="w-10 h-10" />
+              <span className="font-bold text-lg">One Cloud Technology</span>
             </Link>
             <div className="flex items-center space-x-6">
               {navLinks.map((link) => (

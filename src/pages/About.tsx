@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Users, Target, Eye, Award, CheckCircle, Globe, Building, Calendar, MapPin, Phone, Mail, Linkedin } from 'lucide-react';
 
 const About = () => {
@@ -604,7 +605,7 @@ const About = () => {
                   <Phone className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-white mb-2">Call Us</h4>
-                <p className="text-indigo-100">+66 83 225 6781</p>
+                <p className="text-indigo-100">+66-83-225-6781</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">
@@ -623,12 +624,12 @@ const About = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="inline-flex items-center justify-center px-8 py-4 bg-white text-indigo-600 font-semibold rounded-2xl hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl">
+              <Link to="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-white text-indigo-600 font-semibold rounded-2xl hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Schedule Consultation
-              </button>
-              <button className="inline-flex items-center justify-center px-8 py-4 bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold rounded-2xl hover:bg-white/30 transition-all duration-300 shadow-lg hover:shadow-xl">
+              </Link>
+              {/* <button className="inline-flex items-center justify-center px-8 py-4 bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold rounded-2xl hover:bg-white/30 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Download Company Profile
-              </button>
+              </button> */}
             </div>
           </motion.div>
         </div>

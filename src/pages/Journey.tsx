@@ -80,79 +80,79 @@ const Journey = () => {
     // }
   ];
 
-  const achievements = [
-    { icon: Users, number: '750+', label: 'Enterprise Clients', description: 'Trusted by Fortune 500 companies' },
-    { icon: Building, number: '1000+', label: 'Projects Completed', description: 'Successful implementations' },
-    { icon: Globe, number: '15', label: 'Countries Served', description: 'Global presence and reach' },
-    { icon: Award, number: '50+', label: 'Industry Awards', description: 'Recognition for excellence' },
-    { icon: Users, number: '300+', label: 'Expert Engineers', description: 'Certified professionals' },
-    { icon: Star, number: '99.9%', label: 'Client Satisfaction', description: 'Proven track record' }
-  ];
+  // const achievements = [
+  //   { icon: Users, number: '750+', label: 'Enterprise Clients', description: 'Trusted by Fortune 500 companies' },
+  //   { icon: Building, number: '1000+', label: 'Projects Completed', description: 'Successful implementations' },
+  //   { icon: Globe, number: '15', label: 'Countries Served', description: 'Global presence and reach' },
+  //   { icon: Award, number: '50+', label: 'Industry Awards', description: 'Recognition for excellence' },
+  //   { icon: Users, number: '300+', label: 'Expert Engineers', description: 'Certified professionals' },
+  //   { icon: Star, number: '99.9%', label: 'Client Satisfaction', description: 'Proven track record' }
+  // ];
 
-  const innovations = [
-    {
-      year: '2015',
-      title: 'Cloud Migration Accelerator',
-      description: 'Proprietary tool reducing migration time by 60%',
-      impact: 'Migrated 500+ applications with zero downtime'
-    },
-    {
-      year: '2017',
-      title: 'AI-Powered Monitoring',
-      description: 'Machine learning for predictive maintenance',
-      impact: 'Reduced system failures by 80%'
-    },
-    {
-      year: '2019',
-      title: 'Zero-Trust Security Framework',
-      description: 'Advanced security architecture implementation',
-      impact: 'Zero security breaches across all clients'
-    },
-    {
-      year: '2021',
-      title: 'Sustainable Cloud Platform',
-      description: 'Green computing solutions for carbon reduction',
-      impact: '40% reduction in client carbon footprint'
-    },
-    {
-      year: '2023',
-      title: 'Quantum-Ready Infrastructure',
-      description: 'Future-proof security and computing solutions',
-      impact: 'Prepared 100+ clients for quantum era'
-    }
-  ];
+  // const innovations = [
+  //   {
+  //     year: '2015',
+  //     title: 'Cloud Migration Accelerator',
+  //     description: 'Proprietary tool reducing migration time by 60%',
+  //     impact: 'Migrated 500+ applications with zero downtime'
+  //   },
+  //   {
+  //     year: '2017',
+  //     title: 'AI-Powered Monitoring',
+  //     description: 'Machine learning for predictive maintenance',
+  //     impact: 'Reduced system failures by 80%'
+  //   },
+  //   {
+  //     year: '2019',
+  //     title: 'Zero-Trust Security Framework',
+  //     description: 'Advanced security architecture implementation',
+  //     impact: 'Zero security breaches across all clients'
+  //   },
+  //   {
+  //     year: '2021',
+  //     title: 'Sustainable Cloud Platform',
+  //     description: 'Green computing solutions for carbon reduction',
+  //     impact: '40% reduction in client carbon footprint'
+  //   },
+  //   {
+  //     year: '2023',
+  //     title: 'Quantum-Ready Infrastructure',
+  //     description: 'Future-proof security and computing solutions',
+  //     impact: 'Prepared 100+ clients for quantum era'
+  //   }
+  // ];
 
-  const clientStories = [
-    {
-      company: 'Global Manufacturing Corp',
-      industry: 'Manufacturing',
-      challenge: 'Legacy system modernization',
-      solution: 'Complete cloud transformation',
-      result: '50% cost reduction, 300% performance improvement',
-      timeline: '6 months'
-    },
-    {
-      company: 'Southeast Bank',
-      industry: 'Financial Services',
-      challenge: 'Regulatory compliance and security',
-      solution: 'Zero-trust security implementation',
-      result: '100% compliance, zero security incidents',
-      timeline: '4 months'
-    },
-    {
-      company: 'HealthTech Solutions',
-      industry: 'Healthcare',
-      challenge: 'Scalable telemedicine platform',
-      solution: 'Cloud-native architecture',
-      result: '1000% user growth, 99.99% uptime',
-      timeline: '8 months'
-    }
-  ];
+  // const clientStories = [
+  //   {
+  //     company: 'Global Manufacturing Corp',
+  //     industry: 'Manufacturing',
+  //     challenge: 'Legacy system modernization',
+  //     solution: 'Complete cloud transformation',
+  //     result: '50% cost reduction, 300% performance improvement',
+  //     timeline: '6 months'
+  //   },
+  //   {
+  //     company: 'Southeast Bank',
+  //     industry: 'Financial Services',
+  //     challenge: 'Regulatory compliance and security',
+  //     solution: 'Zero-trust security implementation',
+  //     result: '100% compliance, zero security incidents',
+  //     timeline: '4 months'
+  //   },
+  //   {
+  //     company: 'HealthTech Solutions',
+  //     industry: 'Healthcare',
+  //     challenge: 'Scalable telemedicine platform',
+  //     solution: 'Cloud-native architecture',
+  //     result: '1000% user growth, 99.99% uptime',
+  //     timeline: '8 months'
+  //   }
+  // ];
 
   return (
     <div className="pt-24">
       {/* Enhanced Hero Section */}
-      <section className="py-32">
+      {/* <section className="py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -185,10 +185,10 @@ const Journey = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Enhanced Timeline Section */}
-      <section>
+      <section className='pt-20'>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -198,7 +198,7 @@ const Journey = () => {
             className="text-center mb-20"
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
-              Milestones & Achievements
+              Milestones <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">& Achievements</span> 
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               Key moments that defined our growth and established our position as a technology leader
@@ -236,14 +236,14 @@ const Journey = () => {
                         </div>
                         <div>
                           <div className="text-3xl font-bold text-indigo-600 mb-2">{step.year}</div>
-                          <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
+                          {/* <h3 className="text-xl font-bold text-gray-900">{step.title}</h3> */}
                           {/* <div className="text-sm text-purple-600 font-medium">{step.milestone}</div> */}
                         </div>
                       </div>
                       
-                      <p className="text-gray-600 leading-relaxed mb-8 text-base">
+                      {/* <p className="text-gray-600 leading-relaxed mb-8 text-base">
                         {step.description}
-                      </p>
+                      </p> */}
                       
                       {/* Metrics */}
                       {/* <div className="grid grid-cols-3 gap-4 mb-8 p-3 bg-white/5 rounded-2xl">
@@ -282,7 +282,7 @@ const Journey = () => {
       </section>
 
       {/* Innovation Timeline */}
-      <section className="pt-32">
+      {/* <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -322,10 +322,10 @@ const Journey = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Client Success Stories */}
-      <section className="pt-32">
+      {/* <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -384,10 +384,10 @@ const Journey = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Enhanced Milestones Section */}
-      <section className="pt-32">
+      {/* <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -430,10 +430,10 @@ const Journey = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Future Vision Section */}
-      <section className="pt-32">
+      {/* <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -480,7 +480,7 @@ const Journey = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

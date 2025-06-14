@@ -318,13 +318,22 @@ const ContactUs = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
                   Find Us on the Map
                 </h3>
-                <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center">
-                  <div className="text-center">
+                <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center p-4">
+                  <div className="text-center w-full h-full">
                     <MapPin className="w-12 h-12 mx-auto mb-4 text-indigo-600" />
-                    <p className="text-gray-600 font-medium">Interactive Map</p>
-                    <p className="text-gray-500 text-sm">Bangkok, Thailand</p>
+                    <div className="w-full h-3/4 rounded-lg overflow-hidden mb-2">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496114.0486481415!2d100.30343287228129!3d13.725048158218287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailand!5e0!3m2!1sen!2smm!4v1749878881833!5m2!1sen!2smm"
+                        className="w-full h-full border-0"
+                        loading="lazy"
+                        allowFullScreen
+                        referrerPolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+                    <p className="text-gray-500 text-sm pt-3">Bangkok, Thailand</p>
                   </div>
                 </div>
+
               </div>
             </motion.div>
           </div>

@@ -83,7 +83,7 @@ const Home = () => {
   // ];
 
   return (
-    <div className="pt-24">
+    <div className="pt-9">
       {/* Enhanced Hero Section */}
       <section className="min-h-screen flex items-center relative overflow-hidden">
         {/* Background Elements */}
@@ -103,17 +103,17 @@ const Home = () => {
                   Next Generation System Integration
                 </div>
                 
-                <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  Transforming IT into
+                <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                  Your Trusted Partner for
                   <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent block mt-2">
-                    Smart Cloud Solutions
+                     Secure Solutions and Reliable Support
                   </span>
                 </h1>
                 
                 <p className="text-xl text-gray-700 leading-relaxed max-w-3xl font-light">
                   Powered by <span className="font-semibold text-indigo-600">One Cloud Technology Company Limited</span> – Your trusted partner for enterprise-grade Cloud Services, Cybersecurity Solutions, System Integration, Managed Services, Digital Transformation Consulting, and Project Implementation & Support that scale with your business ambitions.              </p>
 
-                <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-5 shadow-2xl">
+                {/* <div className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-5 shadow-2xl">
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
                       <div className="text-2xl font-bold text-indigo-600">500+</div>
@@ -124,7 +124,7 @@ const Home = () => {
                       <div className="text-sm text-gray-600">Uptime SLA</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               
               {/* CTA Buttons */}
@@ -368,7 +368,7 @@ const Home = () => {
       </section> */}
 
       {/* Enhanced Stats Section */}
-      <section className="pt-32">
+      {/* <section className="pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -410,7 +410,7 @@ const Home = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Enhanced CTA Section */}
       <section className="pt-32">
@@ -464,12 +464,12 @@ const Home = () => {
                 Start Your Journey
                 <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link
+              {/* <Link
                 to="/services"
                 className="inline-flex items-center justify-center px-12 py-6 bg-white/20 backdrop-blur-lg border border-white/30 text-gray-800 font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-2xl hover:shadow-3xl text-base"
               >
                 View All Services
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>
