@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, CheckCircle, Users, Award, Globe, Shield, Cloud, Zap, Database, Lock, Server, Monitor } from 'lucide-react';
+import { ArrowRight, CheckCircle, Users, Award, Globe,Puzzle, Shield,TrendingUp, Activity, Cloud, Zap, Database, Lock, Server, Monitor } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -13,38 +13,38 @@ const Home = () => {
 
   const coreServices = [
     {
-      icon: Cloud,
+      icon: Server,
       title: 'IT Infrastructure Services',
       description: 'Scalable, secure cloud solutions with enterprise-grade performance and reliability.',
       features: ['Data center design and deployment', 'Server and storage solutions', 'Virtualization and hyperconverged infrastructure', 'Network architecture and implementation']
     },
     {
-      icon: Shield,
+      icon: Cloud,
       title: 'Cloud Services',
       description: 'Advanced threat protection with AI-powered detection and response capabilities.',
       features: ['Public, private and hybrid cloud deployment', 'Cloud migration adn optimization', 'Managed cloud services', 'Backup and disaster recovery in the cloud']
     },
     {
-      icon: Database,
+      icon: Shield,
       title: 'Cybersecurity Solutions',
       description: 'Comprehensive data solutions from storage to analytics and business intelligence.',
       features: ['Network security (firewalls, IPS/IDS)', 'Endpoint and email security', 'Identity and access management', 'Security operations center (SOC) services', 'Security compliance and risk assessment']
     },
     {
-      icon: Server,
+      icon: Puzzle,
       title: 'System Integration',
       description: 'Complete IT infrastructure management with proactive monitoring and optimization.',
       features: ['Integration of multi-vendor hardware and software', 'Application and database integration', 'API and middleware configuration', 'Legacy system modernization']
     }, 
     {
-      icon: Server,
+      icon: Activity,
       title: 'Managed Services',
       description: 'Complete IT infrastructure management with proactive monitoring and optimization.',
       features: ['IT operations and monitoring', 'Helpdesk and user support', 'Patch management and system updates', 'SLA-based support services']
       
     },
      {
-      icon: Server,
+      icon: TrendingUp,
       title: 'Digital Transformation Consulting',
       description: 'Complete IT infrastructure management with proactive monitoring and optimization.',
       features: ['IT strategy and roadmap development', 'Automation and process optimization', 'Cloud-native application development', 'Business continulty planning']

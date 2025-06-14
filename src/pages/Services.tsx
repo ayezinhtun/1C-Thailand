@@ -6,10 +6,11 @@ import {
   Database, 
   Globe, 
   Zap, 
-  Lock, 
-  Server, 
+  Lock,  
   Network, 
   HardDrive, 
+  Briefcase,
+  Server,
   Settings, 
   Monitor, 
   Layers 
@@ -20,7 +21,7 @@ const Services = () => {
     {
       title: 'Technology Infrastructure and System Integration Solutions',
       description: 'Scalable virtual machines and containers with auto-scaling capabilities for enterprise workloads.',
-      icon: Cloud,
+      icon: Server,
       features: ['Server Consolidation/ Virtualization', 'High Availability/ Redundancy Solutions', 'Fault Tolerant Solution & Hyper-Converged Infrastructure', 'Wireless Infrastructure & BYOD Solutions', 'Infrastructure Upgrade & Migration', 'IT Infrastructure Setup for New Offices & Relocation', 'DC/CR Core Network Solutions', 'WAN Infrastructure'],
       gradient: 'from-blue-500 to-cyan-500'
     },
@@ -41,14 +42,14 @@ const Services = () => {
     {
       title: 'Security & Compliance Services',
       description: 'Enterprise DNS with global anycast network and advanced traffic routing.',
-      icon: Globe,
+      icon: Lock,
       features: ['Advanced Persistant Threat Protection', 'Compliance Management', 'Cybersecurity & Risk Management', 'Enabling & Optimizing SSL/TLS', 'Web Application Firewalls', 'DDoS Protection', 'Data Center and Enterprise Security','PCI Compliant Solutions', 'Next Generation Firewalls', 'Vuinerability Scanning'],
       gradient: 'from-orange-500 to-red-500'
     },
     {
       title: 'Consultation Services',
       description: 'Advanced load balancing with SSL termination and health monitoring.',
-      icon: Network,
+      icon: Briefcase,
       features: ['Gain external and objective advice with professional recommendations', 'Hire extra hands for one-time projects where the hiring of permanent employees is not necessary', 'Acquire professional help in project scoping and planning', 'Convert your business requirements into technical language'],
       gradient: 'from-indigo-500 to-purple-500'
     },

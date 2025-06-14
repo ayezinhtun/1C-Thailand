@@ -2,20 +2,33 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Users, Target, Eye, Award, CheckCircle, Globe, Building, Calendar, MapPin, Phone, Mail, Linkedin } from 'lucide-react';
+import A10 from '../assets/img/A10.png';
+import APC from '../assets/img/APC-copy.png';
+import CheckPoint from '../assets/img/Check-Point-copy.png';
+import F5 from '../assets/img/f5-copy.png';
+import Fortinet from '../assets/img/Fortinet-copy.png';
+import Symantec from '../assets/img/Symantec-copy.png';
+import HPE from '../assets/img/Hewlett-Packard-copy.png';
+import TrendMicro from '../assets/img/Trendmicro-copy.png';
+import Veritas from '../assets/img/Veritas-copy.png';
+import VMware from '../assets/img/VMware-Advanced-150x150.png';
+
+
 
 const About = () => {
   const partners = [
-    { name: 'A10', logo: 'A10', description: 'Application Delivery & Security' },
-    { name: 'APC', logo: 'APC', description: 'Power & Cooling Solutions' },
-    { name: 'Check Point', logo: 'Check Point', description: 'Cybersecurity Solutions' },
-    { name: 'F5', logo: 'F5', description: 'Application Services' },
-    { name: 'Fortinet', logo: 'Fortinet', description: 'Network Security' },
-    { name: 'HPE', logo: 'HPE', description: 'Enterprise Technology' },
-    { name: 'Symantec', logo: 'Symantec', description: 'Endpoint Security' },
-    { name: 'Trend Micro', logo: 'Trend Micro', description: 'Cloud Security' },
-    { name: 'Veritas', logo: 'Veritas', description: 'Data Protection' },
-    { name: 'VMware', logo: 'VMware', description: 'Virtualization Platform' }
-  ];
+  { name: 'A10', logo: A10, description: 'Application Delivery & Security' },
+  { name: 'APC', logo: APC, description: 'Power & Cooling Solutions' },
+  { name: 'Check Point', logo: CheckPoint, description: 'Cybersecurity Solutions' },
+  { name: 'F5', logo: F5, description: 'Application Services' },
+  { name: 'Fortinet', logo: Fortinet, description: 'Network Security' },
+  { name: 'HPE', logo: HPE, description: 'Enterprise Technology' },
+  { name: 'Symantec', logo: Symantec, description: 'Endpoint Security' },
+  { name: 'Trend Micro', logo: TrendMicro, description: 'Cloud Security' },
+  { name: 'Veritas', logo: Veritas, description: 'Data Protection' },
+  { name: 'VMware', logo: VMware, description: 'Virtualization Platform' }
+];
+
 
   const team = [
     { 
@@ -91,7 +104,7 @@ const About = () => {
     {
       title: 'Innovation',
       description: 'We embrace emerging technologies and fresh ideas to deliver modern, future-ready solutions.',
-      icon: '⭐'
+      icon: '💡'
     },
     {
       title: 'Integrity',
@@ -101,17 +114,17 @@ const About = () => {
     {
       title: 'Excellence',
       description: 'We aim for the highest standards, ensuring quality and reliability in everything we deliver.',
-      icon: '🤝'
+      icon: '🏆'
     },
     {
       title: 'Teamwork',
       description: 'We collaborate closely, respecting diverse perspectives to create better outcomes together.',
-      icon: '📚'
+      icon: '👥'
     },
     {
       title: 'Security First',
       description: 'We design with security at the core, ensuring data protection and business continuity.',
-      icon: '📚'
+       icon: '🛡️'
     },
      {
       title: 'Continuous Learning',
@@ -330,7 +343,11 @@ const About = () => {
                 className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 text-center group"
               >
                 <div className="w-20 h-20 mx-auto mb-6 rounded-3xl bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center group-hover:from-indigo-100 group-hover:to-purple-100 transition-all duration-300">
-                  <span className="text-gray-800 font-bold text-lg">{partner.logo}</span>
+                    <img
+                      src={partner.logo}
+                      alt={`${partner.name} logo`}
+                      className="w-100 h-100 object-contain"
+                    />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 group-hover:text-indigo-600 transition-colors mb-2">
                   {partner.name}
