@@ -130,18 +130,18 @@ const Home = () => {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link 
-                  to="/solutions"
+                  to="/contact"
                   className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-3xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-2xl hover:shadow-3xl group text-base"
                 >
-                  Explore Solutions
+                  Contact Sales
                   <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <Link
+                {/* <Link
                   to="/contact"
                   className="inline-flex items-center justify-center px-10 py-5 bg-white/20 backdrop-blur-lg border border-white/30 text-gray-800 font-semibold rounded-3xl hover:bg-white/30 transition-all duration-300 shadow-2xl hover:shadow-3xl text-base"
                 >
                   Contact Sales
-                </Link>
+                </Link> */}
               </div>
 
               {/* Trust Indicators */}

@@ -18,89 +18,89 @@ import {
 const Services = () => {
   const services = [
     {
-      title: 'Cloud Compute',
+      title: 'Technology Infrastructure and System Integration Solutions',
       description: 'Scalable virtual machines and containers with auto-scaling capabilities for enterprise workloads.',
       icon: Cloud,
-      features: ['Auto-scaling', 'Load balancing', 'High availability', '99.9% SLA'],
+      features: ['Server Consolidation/ Virtualization', 'High Availability/ Redundancy Solutions', 'Fault Tolerant Solution & Hyper-Converged Infrastructure', 'Wireless Infrastructure & BYOD Solutions', 'Infrastructure Upgrade & Migration', 'IT Infrastructure Setup for New Offices & Relocation', 'DC/CR Core Network Solutions', 'WAN Infrastructure'],
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
-      title: 'Kubernetes',
+      title: 'Cloud & Managed Services',
       description: 'Managed Kubernetes clusters with enterprise-grade security and monitoring.',
       icon: Layers,
-      features: ['Managed clusters', 'Auto-updates', 'RBAC security', 'Multi-zone deployment'],
+      features: ['Private and Public Solutions', 'Hybrid Solutions', 'Unified Communications', 'Telepresence and Teleconference Solutions', 'Advanced IaaD solution'],
       gradient: 'from-purple-500 to-pink-500'
     },
     {
-      title: 'Block Storage',
+      title: 'Data Center Services',
       description: 'High-performance, persistent storage solutions with snapshot and backup capabilities.',
       icon: HardDrive,
-      features: ['SSD performance', 'Snapshots', 'Encryption', 'Multi-attach support'],
+      features: ['Active-Active DC/DR Solutions', 'Storage & Backup Solutions', 'Project Management', 'Delivering Cost Effective & Quality Solutions', 'Software Defined Networking (SDN) and Virtualization'],
       gradient: 'from-green-500 to-emerald-500'
     },
     {
-      title: 'DNS Management',
+      title: 'Security & Compliance Services',
       description: 'Enterprise DNS with global anycast network and advanced traffic routing.',
       icon: Globe,
-      features: ['Global anycast', 'Traffic routing', 'Health checks', '100% uptime SLA'],
+      features: ['Advanced Persistant Threat Protection', 'Compliance Management', 'Cybersecurity & Risk Management', 'Enabling & Optimizing SSL/TLS', 'Web Application Firewalls', 'DDoS Protection', 'Data Center and Enterprise Security','PCI Compliant Solutions', 'Next Generation Firewalls', 'Vuinerability Scanning'],
       gradient: 'from-orange-500 to-red-500'
     },
     {
-      title: 'Load Balancer',
+      title: 'Consultation Services',
       description: 'Advanced load balancing with SSL termination and health monitoring.',
       icon: Network,
-      features: ['SSL termination', 'Health monitoring', 'Sticky sessions', 'DDoS protection'],
+      features: ['Gain external and objective advice with professional recommendations', 'Hire extra hands for one-time projects where the hiring of permanent employees is not necessary', 'Acquire professional help in project scoping and planning', 'Convert your business requirements into technical language'],
       gradient: 'from-indigo-500 to-purple-500'
     },
     {
-      title: 'Auto Scaling',
+      title: 'Technical Transfer Services',
       description: 'Intelligent auto-scaling based on metrics with predictive scaling capabilities.',
       icon: Zap,
-      features: ['Metric-based scaling', 'Predictive scaling', 'Cost optimization', 'Custom policies'],
+      features: ['Knowledge Sharing and Technical Transfer Services'],
       gradient: 'from-teal-500 to-blue-500'
     },
-    {
-      title: 'Object Storage',
-      description: 'Unlimited scalable storage with CDN integration and lifecycle management.',
-      icon: Database,
-      features: ['Unlimited scale', 'CDN integration', 'Lifecycle policies', 'Version control'],
-      gradient: 'from-rose-500 to-pink-500'
-    },
-    {
-      title: 'Security Center',
-      description: 'Comprehensive security monitoring with threat detection and compliance reporting.',
-      icon: Shield,
-      features: ['Threat detection', 'Compliance reporting', 'Vulnerability scanning', '24/7 monitoring'],
-      gradient: 'from-amber-500 to-orange-500'
-    },
-    {
-      title: 'Identity Management',
-      description: 'Enterprise identity and access management with SSO and multi-factor authentication.',
-      icon: Lock,
-      features: ['SSO integration', 'MFA', 'Role-based access', 'Audit logging'],
-      gradient: 'from-cyan-500 to-teal-500'
-    },
-    {
-      title: 'Dedicated Servers',
-      description: 'High-performance bare metal servers with custom configurations.',
-      icon: Server,
-      features: ['Custom hardware', 'Root access', 'High performance', 'Dedicated support'],
-      gradient: 'from-violet-500 to-purple-500'
-    },
-    {
-      title: 'Monitoring & Analytics',
-      description: 'Real-time monitoring and analytics with custom dashboards and alerting.',
-      icon: Monitor,
-      features: ['Real-time metrics', 'Custom dashboards', 'Alerting', 'Log analysis'],
-      gradient: 'from-emerald-500 to-green-500'
-    },
-    {
-      title: 'DevOps Automation',
-      description: 'Complete CI/CD pipelines with infrastructure as code and automated testing.',
-      icon: Settings,
-      features: ['CI/CD pipelines', 'Infrastructure as code', 'Automated testing', 'Deployment automation'],
-      gradient: 'from-pink-500 to-rose-500'
-    }
+    // {
+    //   title: 'Object Storage',
+    //   description: 'Unlimited scalable storage with CDN integration and lifecycle management.',
+    //   icon: Database,
+    //   features: ['Unlimited scale', 'CDN integration', 'Lifecycle policies', 'Version control'],
+    //   gradient: 'from-rose-500 to-pink-500'
+    // },
+    // {
+    //   title: 'Security Center',
+    //   description: 'Comprehensive security monitoring with threat detection and compliance reporting.',
+    //   icon: Shield,
+    //   features: ['Threat detection', 'Compliance reporting', 'Vulnerability scanning', '24/7 monitoring'],
+    //   gradient: 'from-amber-500 to-orange-500'
+    // },
+    // {
+    //   title: 'Identity Management',
+    //   description: 'Enterprise identity and access management with SSO and multi-factor authentication.',
+    //   icon: Lock,
+    //   features: ['SSO integration', 'MFA', 'Role-based access', 'Audit logging'],
+    //   gradient: 'from-cyan-500 to-teal-500'
+    // },
+    // {
+    //   title: 'Dedicated Servers',
+    //   description: 'High-performance bare metal servers with custom configurations.',
+    //   icon: Server,
+    //   features: ['Custom hardware', 'Root access', 'High performance', 'Dedicated support'],
+    //   gradient: 'from-violet-500 to-purple-500'
+    // },
+    // {
+    //   title: 'Monitoring & Analytics',
+    //   description: 'Real-time monitoring and analytics with custom dashboards and alerting.',
+    //   icon: Monitor,
+    //   features: ['Real-time metrics', 'Custom dashboards', 'Alerting', 'Log analysis'],
+    //   gradient: 'from-emerald-500 to-green-500'
+    // },
+    // {
+    //   title: 'DevOps Automation',
+    //   description: 'Complete CI/CD pipelines with infrastructure as code and automated testing.',
+    //   icon: Settings,
+    //   features: ['CI/CD pipelines', 'Infrastructure as code', 'Automated testing', 'Deployment automation'],
+    //   gradient: 'from-pink-500 to-rose-500'
+    // }
   ];
 
   return (
@@ -127,51 +127,47 @@ const Services = () => {
 
       {/* Services Grid */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.05, rotateY: 5 }}
-                className="bg-white/5 backdrop-blur-md border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 group"
-              >
-                <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  <service.icon className="w-8 h-8 text-white" />
-                </div>
-                
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors">
-                  {service.title}
-                </h3>
-                
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  {service.description}
-                </p>
-                
-                <div className="space-y-3">
-                  <h4 className="text-sm font-semibold text-gray-800 uppercase tracking-wide">
-                    Key Features
-                  </h4>
-                  <ul className="space-y-2">
-                    {service.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center space-x-3">
-                        <div className="w-2 h-2 rounded-full bg-indigo-500"></div>
-                        <span className="text-sm text-gray-600">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </motion.div>
-            ))}
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {services.map((service, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: index * 0.1 }}
+          viewport={{ once: true }}
+          whileHover={{ scale: 1.05, rotateY: 5 }}
+          className="bg-white/5 backdrop-blur-md border border-white/30 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-300 group"
+        >
+          <div
+            className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}
+          >
+            <service.icon className="w-8 h-8 text-white" />
           </div>
-        </div>
-      </section>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 group-hover:text-indigo-600 transition-colors min-h-[90px]">
+            {service.title}
+          </h3>
+
+          <div className="space-y-3">
+            <ul className="space-y-2 pl-0 list-none">
+              {service.features.map((feature, featureIndex) => (
+                <li key={featureIndex} className="flex items-start space-x-3">
+                  <div className="w-2 h-2 mt-1 rounded-full bg-indigo-500" />
+                  <span className="text-sm text-gray-600">{feature}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Service Categories */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -251,7 +247,7 @@ const Services = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* SLA & Support */}
       {/* <section className="pt-20">

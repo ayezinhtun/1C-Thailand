@@ -115,7 +115,7 @@ const About = () => {
     },
      {
       title: 'Continuous Learning',
-      description: 'We foster a culture of growth, staying ahead throuth training, research and knowledge sharing.',
+      description: 'We foster a culture of growth, staying ahead through training, research and knowledge sharing.',
       icon: '📚'
     }
   ];
@@ -171,7 +171,7 @@ const About = () => {
                    With a strong focus on innovation and customer success, we quickly gained recognition for delivering reliable and effective technology solutions.
                   </p>
                   <p className="text-base">
-                   Over the years, our tea has expanded, bringing in experts across various IT disciplines to broaden our capabilities.
+                   Over the years, our team has expanded, bringing in experts across various IT disciplines to broaden our capabilities.
                   </p>
                   <p className="text-base">
                     Today, we continue to build on our foundation with a commitment to excellence and forward-thinking solutions that meet the needs of a rapidly changing digital world.
@@ -310,7 +310,7 @@ const About = () => {
             className="text-center mb-20"
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
-              Trusted Technology Partners
+              Partnership with vendors
             </h2>
             {/* <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               We collaborate with industry leaders to deliver best-in-class solutions, maintaining the highest 
