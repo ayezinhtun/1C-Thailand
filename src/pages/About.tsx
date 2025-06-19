@@ -630,7 +630,7 @@ const About = () => {
                   <Mail className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-white mb-2">Email Us</h4>
-                <p className="text-indigo-100">yenaingtint@onecloudtechnology-th.com</p>
+                <p className="text-indigo-100">sales@onecloudtechnology-th.com</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">

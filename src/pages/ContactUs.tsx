@@ -41,7 +41,7 @@ const ContactUs = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'yenaingtint@  onecloudtechnology-th.com',
+      content: 'sales@onecloudtechnology-th.com',
       description: 'Get in touch for sales inquiries',
       gradient: 'from-blue-500 to-cyan-500'
     },
